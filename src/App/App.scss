@@ -1,0 +1,27 @@
+body {
+    background-color: pink;
+}
+
+.App {
+    //width: 800px;
+    min-width: 320px;
+    max-width: 1000px;
+    border: solid 10px teal;
+    padding: 20px;
+    margin: 25px auto;
+    background-color: white;
+}
+
+@media screen and (min-width: 600px) {
+    body {
+        background-color: rgb(233, 139, 228);
+    }
+
+}
+
+@media screen and (min-width: 1000px) {
+    body {
+        background-color: rgb(225, 77, 245);
+    }
+
+}
