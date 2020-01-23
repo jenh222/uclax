@@ -1,31 +1,50 @@
 .Nav { 
-    background: rgb(122, 244, 124); 
+    background: rgb(162, 202, 255); 
     padding: 20px; 
 
 
     .hamburger { 
         display: block;
-        background-color: orange;
+        background-color: #333(162, 202, 255);
+
+        width: 25px;
+        height: 25px;
+
+        position: absolute;
+        right: 50px;
+        top: 60px;
+        color: #fff;
+
+        svg {
+            width: 100%;
+            height: auto;
+
+            &:hover {
+                color: rgb(162, 202, 255);
+                cursor: pointer;
+            }
+        }
+
     }
 
     .links {
-        background-color: yellow;
+        background-color: rgb(162, 202, 255);
         text-align: center;
 
         a {
-            background-color: purple;
+            background-color: rgb(89, 139, 255);
             color: white;
             display: block;
             padding: 20px;
             border-radius: 4px;
             margin: 10px;
             text-decoration: none;
-            border: solid 4px purple;
+            border: solid 2px rgb(89, 139, 255);
 
             &:hover {
-                background-color: yellow;
-                border: solid 4px purple;
-                color: purple;
+                background-color: #fff;
+                border: solid 2px rgb(89, 139, 255);
+                color: rgb(89, 139, 255);
                 
             }
         }
@@ -35,7 +54,7 @@
 
 @media screen and (min-width: 600px) {
     .Nav { 
-        background-color: rgb(78, 153, 238); 
+        background-color: rgb(162, 202, 255); 
 
         .links {
             a {
@@ -53,7 +72,7 @@
 
 @media screen and (min-width: 1000px) {
     .Nav { 
-        background-color: rgb(78, 238, 105); 
+        background-color: rgb(162, 202, 255); 
 
         .links {
             a {
