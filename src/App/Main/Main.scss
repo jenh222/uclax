@@ -2,11 +2,11 @@
     background: rgb(89, 139, 255); 
     padding: 20px; 
 
-
+    min-height:300px;
 .columns {
 
         background-color: rgb(255, 255, 0);
-        padding: 20px;
+        padding: 10px;
 
         display: flex;
         flex-wrap: wrap;
@@ -16,7 +16,7 @@
             padding: 10px;
             color: black;
 
-            width: 44%;
+            width: 100%;
 
         }
 
@@ -32,22 +32,22 @@
 }
 
 @media screen and (min-width: 600px) {
-    Main{
+.Main{
         .columns {
-            .col(
+            .col{
                 width: 45%;
-            )
+            }
         }
 
     }
 }
 
 @media screen and (min-width: 800px) {
-    Main{
+.Main{
         .columns {
-            .col(
-                width: 23%;
-            )
+            .col{
+                width: 20%;
+            }
         }
 
     }
