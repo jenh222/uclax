@@ -62,23 +62,15 @@
             }
         }
         
-            .hamburger { 
+           .hamburger { 
                 display: none;
-            }
+           }
         
     }
 }
 
 
 @media screen and (min-width: 1000px) {
-    .Nav { 
-        background-color: rgb(162, 202, 255); 
 
-        .links {
-            a {
-                display: inline-block;
-            }
-        }
-    }
 
 }
