@@ -1,5 +1,6 @@
 // React library
 import React from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 // App component Styles
 import './App.scss';
@@ -12,12 +13,14 @@ import Footer from './Footer/Footer.jsx';
 
 const App = () => {
     return (
+        <Router>
         <div className='App'>
             <Header />
             <Nav />
             <Main />
             <Footer />
         </div>
+        </Router>
     )
 }
 

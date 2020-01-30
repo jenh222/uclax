@@ -47,6 +47,10 @@
                 color: rgb(89, 139, 255);
                 
             }
+
+            &.active {
+                background-color: red;
+            }
         }
     }
 
