@@ -2,15 +2,16 @@ body {
     background-color: rgb(224, 224, 224);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 14px;
+    margin: 0px;
 }
 
 .App {
     //width: 800px;
     min-width: 320px;
-    max-width: 1000px;
+    max-width: 100%;
     border: solid 0px teal;
-    padding: 20px;
-    margin: 25px auto;
+    padding: 0px;
+    margin: 0px auto;
     background-color: white;
 }
 

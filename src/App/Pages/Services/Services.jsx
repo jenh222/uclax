@@ -1,25 +1,27 @@
 import React from 'react';
 import './Services.scss';
-import {staffMembers} from './Services.js';
+import {serviceMembers} from './Services.js';
 
-const StaffMembers = () => {
-    return staffMembers.map((staffMember, idx) => {
+const ServiceMembers = () => {
+    return serviceMembers.map((serviceMember, idx) => {
         return (
-            <div key={idx} className = {'StaffMember'}>
-                <img src= {staffMember.img} alt={staffMember.name} />
-                <h3>{ staffMember.name }</h3>
+            <div key={idx} className = {'ServiceMember'}>
+                <img src= {serviceMember.img} alt={serviceMember.name} />
+                <h3>{ serviceMember.name }</h3>
             </div>
         );
     });
 }
 
-const Staff = () => {
+const Service = () => {
     return (
-        <div className ='Staff'>
-            <h2>Staff goes here.</h2>
-            <StaffMembers />
+        <div className ='Service'>
+            <h2>Services goes here.</h2>
+            <div className="container">
+            <ServiceMembers />
+        </div>
         </div>
     )
 }
 
-export default Staff;
+export default Service;

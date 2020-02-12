@@ -1,6 +1,6 @@
 import React from 'react';
 import './Staff.scss';
-import { staffMembers} from './staff.js';
+import {staffMembers} from './staff.js';
 
 const StaffMembers = () => {
     return staffMembers.map((staffMember, idx) => {
@@ -17,7 +17,9 @@ const Staff = () => {
     return (
         <div className ='Staff'>
             <h2>Staff goes here.</h2>
+            <div className="container">
             <StaffMembers />
+            </div>
         </div>
     )
 }
