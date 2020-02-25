@@ -3,6 +3,18 @@
     border: solid 1px white;
     padding: 20px;
 
+    &.form-invalid {
+        border: solid 1px red;
+        background-color: pink;
+    }
+
+    .error-message {
+        border: solid 1px red;
+        background-color: orange;
+        padding: 20px;
+        margin-bottom: 50px;
+    }
+
 .form-group {
 
     margin-bottom: 20px;
